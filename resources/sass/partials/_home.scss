@@ -1,0 +1,37 @@
+.body {
+    background-color: rgb(34, 33, 44);
+    color: white;
+    height: 100vh;
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 60%;
+        margin: 0 auto;
+
+        .card {
+            border: 1px solid #fff;
+            height: 200px;
+            width: 200px;
+            margin: 20px;
+
+            ul {
+                list-style: none;
+                padding: 20px;
+
+                h4 {
+                    font-size: 23px;
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    margin: 5px 0;
+                }
+            }
+        }
+    }
+}
